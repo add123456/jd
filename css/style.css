@@ -1,0 +1,683 @@
+*{margin:0;padding:0;}
+ul,ol{list-style:none;}
+a{text-decoration:none;color:#666;}
+a:hover{color:#c81623;}
+img,input{border:none;}
+boby{font-family:arial,"Microsoft YaHei","宋体"}
+i{font-style: normal;font-size: 13px;font-family: consolas;}
+.clearfix:after{content: ".";clear:both;font-size: 0;height:0;display:block;}
+.inner{width:1210px;margin:0 auto;}
+.header{border-bottom:2px solid #b1191a;}
+.header .top{height:30px;background: #f1f1f1;}
+.header .top .diqu{float:left;}
+.header .top ul{float:right;}
+.header .top li{float:left;}
+.header .top li p{color:#c81623;}
+.header .top li a{font-size: 12px;font-family: "宋体";line-height: 30px;height:30px;vertical-align: top;padding:0 10px;display:inline-block;}
+.header .top ul .line{width:1px;height:12px;background: #ddd;margin-top:9px;font-family: consolas;font-size: 15px;} 
+.header .top ul span{display:inline-block;width:10px;height:5px;overflow: hidden;line-height:1px;margin-left: 9px;transition: all 0.5s;/*使元素拥有过度属性*/}
+.header .top ul i{width:15px;height:20px;display:inline-block;background:url(../images/jd2015img.png) no-repeat;float:left;margin:5px 3px 0 0;}
+.header .top .active:hover{background:#fff;}
+.header .top .active:hover i{background-position:0 -25px;}
+.header .top .active:hover span{transform: rotate(180deg);/*2D变形动画*/;}
+.header .mid .logo{float:left;padding:21px 93px 0 0;}
+.header .mid .form{float:left;height:36px;padding-top:25px;}
+.header .mid .form .text{width:444px;height:32px;border:2px solid #b61d1d;padding:0 5px;float:left;font-size: 13px;color:#666;}
+.header .mid .form .sub{width:80px;height:36px;line-height:36px;background:#b61d1d;color:#fff;float:left;font-size: 16px;}
+.header .mid .form a{float:left;font-family: "宋体";font-size: 12px;line-height: 28px;height:28px;margin-right:11px;}
+.header .mid .tags .active{color:#c81623;}
+.header .mid .buy{width:139px;height:34px;float:right;background:#f9f9f9 url(../images/jd2015img.png) no-repeat 18px -49px;border:1px solid #dfdfdf;margin:25px 65px 0 0;position:relative;}
+.header .mid .buy a{height:34px;line-height:34px;font-family:"宋体";color:#666;font-size: 12px;margin-left: 44px;float:left}
+.header .mid .buy span{font-family: consolas;font-size: 13px;margin-right: 11px;float:right;line-height:34px;}
+.header .mid .buy .sl{height:14px;background:#c81623;border-radius:7px 7px 7px 0;color:#fff;position:absolute;left:104px;top:-4px;font-size:12px;padding:2px 5px;}
+.header .bot{margin-top: 11px;}
+.header .bot .quanbu{width:200px;height:44px;float:left;background:#b1191a;line-height:44px;color:#fff;padding-left: 10px;font-size: 16px}
+.header .bot ul{float:left;}
+.header .bot ul li{float:left;height:44px;line-height: 44px;font-size: 16px;padding:0 20px}
+.header .bot ul li a{color:#333333;}
+.header .bot ul li a:hover{color:#C81623}
+.page1 .top{height:476px}
+.page1{height:637px;}
+.page1 .top .warp{width:210px;float:left;position:relative;}
+.page1 .top .nav_list{width:209px;height:466px;background: #c81623;border-left:1px solid #b61d1d;z-index:4;position:relative;}
+.page1 .top .nav_list h3{width:173px;overflow:hidden;font-weight:normal;color:#fff;padding-left:10px;font-size:14px;}
+.page1 .top .nav_list li{line-height:31px;height:31px;position:relative}
+.page1 .top .nav_list li:hover{background:#f7f7f7;}
+.page1 .top .nav_list li:hover h3{color:#666;}
+.page1 .top .nav_list li:hover a{color:#666;}
+.page1 .top .nav_list li a:hover{color:#C81623;}
+.page1 .top .nav_list li a{color:#fff;font-size:14px;}
+.page1 .top .nav_list li i{position:absolute;top:0;right:13px;color:#fff;font-family:consolas;font-size: 13px;}
+.page1 .top .popup{width:999px;position:absolute;top:-1px;left:209px;border:1px solid #b61d1d;background:#f7f7f7;min-height: 465px;z-index:2;}
+.page1 .top .popup .left{float:left;margin:20px 0 0 20px;width:740px;}
+.page1 .top .popup .left .brand a{float:left;height:24px;line-height: 24px;background: #7c7171;color:#fff;position:relative;padding:0 32px 0 9px;margin-right: 10px;font-size: 12px;}
+.page1 .top .popup .left .brand a i{width:23px;height:23px;text-align:center;position:absolute;top:1px;right:0;background:#5c5251;font-family: consolas;font-size: 13px;}
+.page1 .top .popup .left .brand .ac{background:#C81623;}
+.page1 .top .popup .left .brand .ac i{background:#b1191a;}
+.page1 .top .popup .left .brand a:hover{background:#C81623;}
+.page1 .top .popup .left .brand a:hover i{background:#b1191a;}
+.page1 .top .popup .left .menu{margin-top:6px;}
+.page1 .top .popup .left .menu dl{padding-top: 10px;float:left;}
+.page1 .top .popup .left .menu dt{width:84px;float:left;text-align: right;position:relative;line-height: 21px;height:21px;}
+.page1 .top .popup .left .menu dt a{font-size: 12px;font-weight: bold;padding-right: 30px;}
+.page1 .top .popup .left .menu dt i{position:absolute;top:0;right:17px;}
+.page1 .top .popup .left .menu dd{width:622px;float:left;border-bottom: 1px solid #f2f2f2;padding-bottom: 2px;}
+.page1 .top .popup .left .menu dd a{float:left;border-left: 1px solid #e9e9e9;height:16px;line-height:16px;padding:0 8px;font-size: 12px;margin-bottom: 8px;}
+.page1 .top .popup .left .menu dd span{width:16px;width:16px;display:inline-block;}
+.page1 .top .popup .right1{float:right;margin: 20px 19px 0 0;width:187px;}
+.page1 .top .popup .right1 ul{margin-bottom: 9px;}
+.page1 .top .popup .right1 li{width:83px;height:35px;overflow:hidden;float:left;margin: 0 1px 1px 0;}
+.page1 .top .popup .right1 .pic{width:168px;height:134px;overflow: hidden;margin-bottom: 1px;}
+
+
+.page1 .top .banner{float:left;margin:12px 10px 0;}
+.page1 .top .right{float:right;width:250px;margin-top:12px;}
+.page1 .top .right .news{border:1px solid #e4e4e4;height:163px;}
+.page1 .top .right .news .title{border-bottom: 1px dotted #e8e8e7;height:32px;line-height: 30px;padding:0 15px;}
+.page1 .top .right .news .title a{float:right;font-size:12px;}
+.page1 .top .right .news .title h3{color:#666;font-size: 16px;font-weight: normal;}
+.page1 .top .right .news ul{padding:5px 0 0 15px;}
+.page1 .top .right .news li{line-height: 24px;height:24px}
+.page1 .top .right .news ul a{font-size:12px;vertical-align:top;font-family:"宋体";}
+.page1 .top .right .news ul span{font-weight: bold;margin-right: 5px;}
+.page1 .top .right .icon{height:208px;border:1px solid #e4e4e4;border-top:none;overflow: hidden;}
+.page1 .top .right .icon ul{width:260px;text-align: center;}
+.page1 .top .right .icon li{width:62px;height:70px;border-right:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;float:left;position: relative;}
+.page1 .top .right .icon i{width:25px;height:25px;position:absolute;top:12px;left:20px;background: url(../images/57620a6fN77b2b8af.png) no-repeat;}
+.page1 .top .right .icon .er{background-position: 0 -27px;}
+.page1 .top .right .icon .san{background-position: 0 -52px;}
+.page1 .top .right .icon .si{background-position: 0 -75px;}
+.page1 .top .right .icon .wu{background-position: 0 -102px;}
+.page1 .top .right .icon .liu{background-position: 0 -126px;}
+.page1 .top .right .icon .qi{background-position: 0 -151px;}
+.page1 .top .right .icon .ba{background-position: 0 -176px;}
+.page1 .top .right .icon .jiu{background-position: 0 -250px;}
+.page1 .top .right .icon .shi{background-position: 0 -200px;}
+.page1 .top .right .icon .sy{background-position: 0 -275px;}
+.page1 .top .right .icon .se{background-position: 0 -227px;}
+.page1 .top .right .icon ul span{line-height:30px;padding-top:40px;font-size:12px;font-family: "宋体";display: block;}
+.page1 .top .right .pic{width:250px;height:75px;padding-top:5px;}
+.page1 .bot .zhongbiao{width:210px;height:151px;float:left;background:url(../images/homebg.png) no-repeat -213px -136px;}
+.page1 .bot a{float:left;margin-right:1px;}
+.page1 .bot .active{margin-right:0;}
+.page2{margin-top: 22px;}
+.page2 .top{height:40px;}
+.page2 .top h3{line-height:30px;height:30px;float:left;color:#333333;font-size: 20px;font-weight: normal;background:url("../images/homebg.png") no-repeat 85px -91px;padding-right: 228px;}
+.page2 .top a{float:right;margin-top:6px;font-size: 12px;font-family: "宋体";padding-right: 25px;background:url("../images/homebg.png") no-repeat -310px -7px;}
+.page2 .top a:hover{background-position:-310px -31px;color:#C81623;}
+.page2 .bot{width:1208px;height: 231px;border:1px solid #d1d1d1}
+.page2 .bot li{float:left;width:201px;padding-top: 20px;overflow:hidden;}
+.page2 .bot .first{width:203px;margin-left: -1px;}
+.page2 .bot li .pic{width:130px;height: 130px;padding:0 36px;}
+.page2 .bot li .text{border-left: 1px solid #e6e6e6;margin-top: 10px;padding:0 36px;}
+.page2 .bot li .text a{font-size: 12px;line-height: 18px;font-family: "宋体";height:36px;display: block;overflow: hidden;}
+.page2 .bot li .text span{height:21px;line-height: 21px;font-size: 17px;margin-top: 5px;display: block;color:#b51d1a;}
+.page2 .bot li .text span i{font-size: 13px;}
+.page3{padding-top:22px;}
+.page3 h2{line-height: 34px;height: 34px;font-size: 20px;font-weight: normal;}
+.page3 .bot{border:1px solid #ededed;height:405px;}
+.page3 .left{float:left;width:403px;background: #f7f7f7;float: left;border-right: 1px solid #ededed;}
+.page3 .left h3{height: 40px;text-align: center;line-height: 40px;font-size: 15px;border-bottom: 1px dashed #e0e0e0;margin: 0 20px;color: #333;}
+.page3 .left .tuwen{position:relative;}
+.page3 .left .tuwen .pic{height: 205px;overflow: hidden;}
+.page3 .left .tuwen .con{position: absolute;left: 44px;top: 59px;}
+.page3 .left .tuwen .con p{line-height: 38px;height: 38px;font-size: 15px;color: #333;font-weight: bolder;}
+.page3 .left .tuwen .con span{line-height: 18px;height: 18px;font-size: 12px;display: block;color:#333;}   
+.page3 .left .tuwen .con i{line-height: 18px;height: 18px;font-size: 12px;color: #c81623;display: block;} 
+.page3 .left ul{border-top: 1px solid #ededed;}
+.page3 .left ul li{float: left;width: 201px;position:relative;border-right: 1px solid #ededed;}
+.page3 .left ul .last{border-right:none;}
+.page3 .left ul li .pic{height:158px;}
+.page3 .left ul li .con{position: absolute;top:39px;left:10px;}
+.page3 .left ul li .con p{line-height: 38px;height:38px;font-size: 15px;color: #333;font-weight: bolder;}
+.page3 .left ul li .con span{line-height: 18px;height: 18px;font-size: 12px;display: block;color: #333;}
+.page3 .left ul li .con i{line-height: 18px;height: 18px;font-size: 12px;color: #c81623;display: block;}
+.page3 .zhong{width: 228px;background: #fff;float:left;border-right: 1px solid #ededed;}
+.page3 .zhong h3{line-height: 40px;height: 40px;font-size: 15px;border-bottom: 1px dashed #e0e0e0;text-align: center;margin: 0 20px;color: #333;}
+.page3 .zhong .tuwen{position: relative;}
+.page3 .zhong .tuwen .pic{height: 205px;overflow: hidden;}
+.page3 .zhong .tuwen .con{position: absolute;left: 10px;top: 39px;}
+.page3 .zhong .tuwen .con p{line-height: 38px;height: 38px;font-size: 15px;color: #333;font-weight: bolder;}
+.page3 .zhong .tuwen .con span{line-height: 18px;height: 18px;font-size: 12px;display: block;color: #333;}
+.page3 .zhong .tuwen .con i{line-height: 18px;height: 18px;font-size: 12px;color: #c81623;display: block;}
+.page3 .zhong .tuwen .pic_min{height: 158px;border-top: 1px solid #ededed;}
+.page3 .right{width: 171px;height:405px;float: left;}
+.page3 .right .icon{width: 85px;border-right: 1px dashed #e0e0e0;float: left;height:381px;overflow: hidden;margin-top: 13px;}
+.page3 .right .icon ul{margin-top: -13px;}
+.page3 .right .icon li{font-size: 0;border-bottom: 1px dashed #e0e0e0;width: 74px;margin-left: 11px;}
+.page3 .right .icon li a{width: 85px;margin-left: -11px;display: block;text-align: center;}
+.page3 .right .r{border: none;}
+.page3 .right .r li{margin-left: 0;}
+.page3 .right .r li a{margin-left: 0;}
+.adposition1{width: 1200px;margin:20px auto 15px;height: 125px;padding: 0 5px 0;}  
+.adposition1 .ad{width: 400px;display: block;float: left;font-size: 0;}  
+.page4 .title h2 i{color: #fff;font-size: 13px;position: absolute;left: 3px;top: 0;display: block;}
+.page4 .title{border-bottom: 1px solid #C81623;height: 35px;}
+.page4 .title h2{float: left;height: 30px;line-height: 30px;font-size: 20px;color: #333;font-weight: normal;padding-left: 40px;background: url("../images/nva_bg.png") no-repeat 0 -35px;position: relative;}
+.page4 .title ul{float: right;border: 1px solid #ededed;border-bottom: none;}
+.page4 .title ul li{float: left;height: 31px;line-height: 31px;position: relative;border-top: 3px solid #fff;border-left: 1px solid #fff;border-right: 1px solid #fff;}
+.page4 .title ul .ac{border-color:#C81623 ;z-index: 3;margin-top: -1px; padding-top: 1px;}
+.page4 .title ul .ac i{display: none;}
+.page4 .title ul .ac a{height: 32px;background: #fff;}
+.page4 .title ul li a{padding: 0 15px;font-size: 12px;display: block;}
+.page4 .title ul li i{width: 1px;height: 14px;background: #ccc;position: absolute;top:10px;right:-2px;z-index: 2;}
+.page4 .title ul li:hover{border-color:#C81623 ;z-index: 3;margin-top: -1px; padding-top: 1px;} 
+.page4 .title ul li:hover i{display: none;}
+.page4 .title ul li:hover a{height: 32px;background: #fff;}
+.page4 .main .left{width:330px;float:left}
+.page4 .main .left .top{height: 473px;position: relative; overflow: hidden;}    
+.page4 .main .left .top .pic{position: relative;}
+.page4 .main .left .top .text{position: absolute;left: 0;top: 253px;}
+.page4 .main .left .top .text .yi{background: rgba(255,255,255,0.5);padding-left: 25px;height: 92px;overflow: hidden;}
+.page4 .main .left .top .text .yi li{width: 100px;height: 26px;float: left;margin: 10px 0;overflow: hidden;}
+.page4 .main .left .top .text .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/clothesicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page4 .main .left .top .text .yi li a:hover{color:#C81623}
+.page4 .main .left .top .text .yi li .er{background-position: 0 -26px;}     
+.page4 .main .left .top .text .yi li .san{background-position: 0 -52px;}     
+.page4 .main .left .top .text .yi li .si{background-position: 0 -78px;}     
+.page4 .main .left .top .text .yi li .wu{background-position: 0 -104px;}     
+.page4 .main .left .top .text .yi li .liu{background-position: 0 -130px;}     
+.page4 .main .left .top .text .er{background: rgba(255,255,255,0.7);height: 128px;}
+.page4 .main .left .top .text .er li{float: left;width: 135px;padding: 16px 0 0 25px;height: 92px;overflow: hidden}
+.page4 .main .left .top .text .er li a{line-height: 24px;height: 24px;display: block;color: #999;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;}
+.page4 .main .left .top .text .er li a:hover{color:#C81623}
+.page4 .main .left .top .text .er li .ac{color: #c81623;}
+.page4 .main .left .bot{height: 158px;border: 1px solid #ededed;width: 328px;}
+.page4 .main .right{float:left;}
+.page4 .main .right .r_inner{width: 880px;height: 632px;overflow: hidden;float: left;border-bottom: 1px solid #ededed;font-size: 0;}
+.page4 .main .right .r_inner .banner{float: left;height: 633px;width: 439px;border-right: 1px solid #ededed;}
+.page4 .main .right .r_inner li{height: 157px;border-bottom: 1px solid #ededed;overflow: hidden;}
+.page4 .main .right .r_inner .er{height:315px;overflow: hidden;}
+.page4 .main .right .r_inner .san{height: 158px;border-bottom: none;overflow: hidden;}
+.page4 .main .right .r_inner .details{float: left;height: 633px;width: 219px;border-right: 1px solid #ededed;}
+.page4 .main .right .r_inner .details li{height: 157px;border-bottom: 1px solid #ededed;overflow: hidden;}
+.page4 .main .right .r_inner .details .last{height: 158px;border-bottom: none;overflow: hidden;}
+.page4 .main .right .r_inner .details .back{height: 316px;overflow: hidden;}
+.page4 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page4 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page4 .icon .last{border-right:none;}
+.page5{padding-top: 22px;}
+.page5 .title h2 i{color: #fff;font-size: 13px;position: absolute;left: 3px;top: 0;display: block;}
+.page5 .title{border-bottom: 1px solid #C81623;height: 35px;}
+.page5 .title h2{float: left;height: 30px;line-height: 30px;font-size: 20px;color: #333;font-weight: normal;padding-left: 40px;background: url("../images/nva_bg.png") no-repeat 0 -35px;position: relative;}
+.page5 .title ul{float: right;border: 1px solid #ededed;border-bottom: none;}
+.page5 .title ul li{float: left;height: 31px;line-height: 31px;position: relative;border-top: 3px solid #fff;border-left: 1px solid #fff;border-right: 1px solid #fff;}
+.page5 .title ul .ac{border-color:#C81623 ;z-index: 3;margin-top: -1px; padding-top: 1px;}
+.page5 .title ul .ac i{display: none;}
+.page5 .title ul .ac a{height: 32px;background: #fff;}
+.page5 .title ul li a{padding: 0 15px;font-size: 12px;display: block;}
+.page5 .title ul li i{width: 1px;height: 14px;background: #ccc;position: absolute;top:10px;right:-2px;z-index: 2;}
+.page5 .title ul li:hover{border-color:#C81623 ;z-index: 3;margin-top: -1px; padding-top: 1px;} 
+.page5 .title ul li:hover i{display: none;}
+.page5 .title ul li:hover a{height: 32px;background: #fff;}
+.page5 .main .left{float:left;width:210px;position: relative;height: 474px;overflow: hidden;}
+.page5 .main .left .pic{position: relative;}
+.page5 .main .left .text{position: absolute;left: 0;top: 237px;}
+.page5 .main .left .text .yi{background: rgba(255,255,255,0.5);height: 92px;overflow: hidden;padding-left: 10px;}
+.page5 .main .left .text .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page5 .main .left .text .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/cosmeticsicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page5 .main .left .text .yi li .er{background-position: 0 -26px;}
+.page5 .main .left .text .yi li .san{background-position: 0 -52px;}
+.page5 .main .left .text .yi li .si{background-position: 0 -78px;}
+.page5 .main .left .text .er{background: rgba(255,255,255,0.7);height: 145px;overflow: hidden;}
+.page5 .main .left .text .er .one{padding: 22px 0 6px 25px;overflow: hidden;width: 180px;}
+.page5 .main .left .text .er .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;}
+.page5 .main .left .text .er .two{padding-left: 25px;height: 52px;overflow: hidden;}
+.page5 .main .left .text .er .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page5 .main .left .text .er .two .ac{color: #c81623;}
+.page5 .main .left .text .er a:hover{color:#C81623;}
+.page5 .main .right{float:left;width: 1000px;height: 473px;float: left;border-bottom: 1px solid #ededed;font-size: 0;}
+.page5 .main .right .banner{width: 339px;border-right: 1px solid #ededed;float: left;}
+.page5 .main .right li{height:294px;float:left;overflow: hidden;}
+.page5 .main .right .last{height: 176px;border-top: 1px dotted #ededed;overflow: hidden;}
+.page5 .main .right .details{float: left;width: 219px;border-right: 1px solid #ededed}
+.page5 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page5 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page5 .icon .last{border-right:none;}
+.adposition2{width: 1200px;margin:20px auto 15px;height: 125px;padding: 0 5px 0;}  
+.adposition2 .ad{width: 400px;display: block;float: left;font-size: 0;}      
+.page6 .title h2 i{color: #fff;font-size: 13px;position: absolute;left: 3px;top: 0;display: block;}
+.page6 .title{border-bottom: 1px solid #C81623;height: 35px;}
+.page6 .title h2{float: left;height: 30px;line-height: 30px;font-size: 20px;color: #333;font-weight: normal;padding-left: 40px;background: url("../images/nva_bg.png") no-repeat 0 -35px;position: relative;}
+.page6 .title ul{float: right;border: 1px solid #ededed;border-bottom: none;}
+.page6 .title ul li{float: left;height: 31px;line-height: 31px;position: relative;border-top: 3px solid #fff;border-left: 1px solid #fff;border-right: 1px solid #fff;}
+.page6 .title ul .ac{border-color:#C81623 ;z-index: 3;margin-top: -1px; padding-top: 1px;}
+.page6 .title ul .ac i{display: none;}
+.page6 .title ul .ac a{height: 32px;background: #fff;}
+.page6 .title ul li a{padding: 0 15px;font-size: 12px;display: block;}
+.page6 .title ul li i{width: 1px;height: 14px;background: #ccc;position: absolute;top:10px;right:-2px;z-index: 2;}
+.page6 .title ul li:hover{border-color:#C81623;z-index: 3;margin-top: -1px; padding-top: 1px;} 
+.page6 .title ul li:hover i{display: none;}
+.page6 .title ul li:hover a{height: 32px;background: #fff;}
+.page6 .main .left{float:left;width:330px;position: relative;height: 474px;overflow: hidden;}
+.page6 .main .left .pic{position: relative;}
+.page6 .main .left .text{position: absolute;left: 0;top: 237px;}
+.page6 .main .left .text .yi{background: rgba(255,255,255,0.5);height: 46px;overflow: hidden;padding-left: 25px;}
+.page6 .main .left .text .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page6 .main .left .text .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/mobilesicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page6 .main .left .text .yi li .er{background-position: 0 -26px;}
+.page6 .main .left .text .yi li .san{background-position: 0 -52px;}
+.page6 .main .left .text .er{background: rgba(255,255,255,0.7);height: 191px;overflow: hidden;}
+.page6 .main .left .text .er .one{padding: 22px 0 6px 0;overflow: hidden;width: 330px;height:48px;}
+.page6 .main .left .text .er .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;width: 135px;overflow: hidden;padding-left: 25px;}
+.page6 .main .left .text .er .two li{padding-left: 25px;float: left;width: 135px;height: 98px;overflow: hidden;}
+.page6 .main .left .text .er .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page6 .main .left .text .er .two .ac{color: #c81623;}
+.page6 .main .left .text .er a:hover{color:#C81623;}
+.page6 .main .right{float:left;width: 880px;height: 473px;border-bottom: 1px solid #ededed;font-size: 0;overflow: hidden;}
+.page6 .main .right .banner{float: left;width: 439px;height: 473px;border-right: 1px solid #ededed;overflow: hidden;}
+.page6 .main .right .banner li{height: 236px;float: left;overflow: hidden;}
+.page6 .main .right .banner .last{height: 237px;border-top: 1px solid #ededed;overflow: hidden;}
+.page6 .main .right .details{float: left;width: 219px;height: 473px;border-right: 1px solid #ededed;overflow: hidden}
+.page6 .main .right .details li{height: 117px;overflow: hidden;border-bottom: 1px solid #ededed;}
+.page6 .main .right .details .last{height: 237px;border-right: none;}
+.page6 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page6 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page6 .icon .last{border-right:none;}
+.page7{padding-top: 22px;}
+.page7 .title h2 i{color: #fff;font-size: 13px;position: absolute;left: 3px;top: 0;display: block;}
+.page7 .title{border-bottom: 1px solid #C81623;height: 35px;}
+.page7 .title h2{float: left;height: 30px;line-height: 30px;font-size: 20px;color: #333;font-weight: normal;padding-left: 40px;background: url("../images/nva_bg.png") no-repeat 0 -35px;position: relative;}
+.page7 .title ul{float: right;border: 1px solid #ededed;border-bottom: none;}
+.page7 .title ul li{float: left;height: 31px;line-height: 31px;position: relative;border-top: 3px solid #fff;border-left: 1px solid #fff;border-right: 1px solid #fff;}
+.page7 .title ul .ac{border-color:#C81623 ;z-index: 3;margin-top: -1px; padding-top: 1px;}
+.page7 .title ul .ac i{display: none;}
+.page7 .title ul .ac a{height: 32px;background: #fff;}
+.page7 .title ul li a{padding: 0 15px;font-size: 12px;display: block;}
+.page7 .title ul li i{width: 1px;height: 14px;background: #ccc;position: absolute;top:10px;right:-2px;z-index: 2;}
+.page7 .title ul li:hover{border-color:#C81623;z-index: 3;margin-top: -1px; padding-top: 1px;} 
+.page7 .title ul li:hover i{display: none;}
+.page7 .title ul li:hover a{height: 32px;background: #fff;}
+.page7 .main .left{float:left;width:330px;position: relative;height: 474px;overflow: hidden;}
+.page7 .main .left .pic{position: relative;}
+.page7 .main .left .text{position: absolute;left: 0;top: 237px;}
+.page7 .main .left .text .yi{background: rgba(255,255,255,0.5);height: 46px;overflow: hidden;padding-left: 25px;}
+.page7 .main .left .text .yi li{width: 132px;height: 26px;float: left;margin: 10px 0;}
+.page7 .main .left .text .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/electronicsicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page7 .main .left .text .yi li .er{background-position: 0 -26px;}
+.page7 .main .left .text .er{background: rgba(255,255,255,0.7);height: 191px;overflow: hidden;}
+.page7 .main .left .text .er .one{padding: 22px 0 6px 0;overflow: hidden;width: 330px;height:48px;}
+.page7 .main .left .text .er .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;width: 135px;overflow: hidden;padding-left: 25px;}
+.page7 .main .left .text .er .two li{padding-left: 25px;float: left;width: 135px;height: 98px;overflow: hidden;}
+.page7 .main .left .text .er .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page7 .main .left .text .er .two .ac{color: #c81623;}
+.page7 .main .left .text .er a:hover{color:#C81623;}
+.page7 .main .right{float:left;width: 880px;height: 473px;border-bottom: 1px solid #ededed;font-size: 0;overflow: hidden;}
+.page7 .main .right .banner{float: left;width: 439px;height: 473px;border-right: 1px solid #ededed;overflow: hidden;}
+.page7 .main .right .banner li{height: 236px;float: left;overflow: hidden;}
+.page7 .main .right .banner .last{height: 237px;border-top: 1px solid #ededed;overflow: hidden;}
+.page7 .main .right .details{float: left;width: 219px;height: 473px;border-right: 1px solid #ededed;overflow: hidden}
+.page7 .main .right .details li{height: 117px;overflow: hidden;border-bottom: 1px solid #ededed;}
+.page7 .main .right .details .last{height: 237px;border-right: none;}
+.page7 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page7 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page7 .icon .last{border-right:none;}
+.page8{padding-top: 22px;}
+.page8 .title h2 i{color: #fff;font-size: 13px;position: absolute;left: 3px;top: 0;display: block;}
+.page8 .title{border-bottom: 1px solid #C81623;height: 35px;}
+.page8 .title h2{float: left;height: 30px;line-height: 30px;font-size: 20px;color: #333;font-weight: normal;padding-left: 40px;background: url("../images/nva_bg.png") no-repeat 0 -35px;position: relative;}
+.page8 .title ul{float: right;border: 1px solid #ededed;border-bottom: none;}
+.page8 .title ul li{float: left;height: 31px;line-height: 31px;position: relative;border-top: 3px solid #fff;border-left: 1px solid #fff;border-right: 1px solid #fff;}
+.page8 .title ul .ac{border-color:#C81623 ;z-index: 3;margin-top: -1px; padding-top: 1px;}
+.page8 .title ul .ac i{display: none;}
+.page8 .title ul .ac a{height: 32px;background: #fff;}
+.page8 .title ul li a{padding: 0 15px;font-size: 12px;display: block;}
+.page8 .title ul li i{width: 1px;height: 14px;background: #ccc;position: absolute;top:10px;right:-2px;z-index: 2;}
+.page8 .title ul li:hover{border-color:#C81623;z-index: 3;margin-top: -1px; padding-top: 1px;} 
+.page8 .title ul li:hover i{display: none;}
+.page8 .title ul li:hover a{height: 32px;background: #fff;}
+.page8 .main .left{float:left;width:330px;position: relative;height: 474px;overflow: hidden;}
+.page8 .main .left .pic{position: relative;}
+.page8 .main .left .text{position: absolute;left: 0;top: 237px;}
+.page8 .main .left .text .yi{background: rgba(255,255,255,0.5);height: 46px;overflow: hidden;padding-left: 25px;}
+.page8 .main .left .text .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page8 .main .left .text .yi .da{width:108px;}
+.page8 .main .left .text .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/digitalsicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page8 .main .left .text .yi li .er{background-position: 0 -26px;}
+.page8 .main .left .text .er{background: rgba(255,255,255,0.7);height: 191px;overflow: hidden;}
+.page8 .main .left .text .er .one{padding: 22px 0 6px 0;overflow: hidden;width: 330px;height:48px;}
+.page8 .main .left .text .er .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;width: 135px;overflow: hidden;padding-left: 25px;}
+.page8 .main .left .text .er .two li{padding-left: 25px;float: left;width: 135px;height: 98px;overflow: hidden;}
+.page8 .main .left .text .er .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page8 .main .left .text .er .two .ac{color: #c81623;}
+.page8 .main .left .text .er a:hover{color:#C81623;}
+.page8 .main .right{float:left;width: 880px;height: 473px;border-bottom: 1px solid #ededed;font-size: 0;overflow: hidden;}
+.page8 .main .right .banner{float: left;width: 439px;height: 473px;border-right: 1px solid #ededed;overflow: hidden;}
+.page8 .main .right .banner li{height: 236px;float: left;overflow: hidden;}
+.page8 .main .right .banner .last{height: 237px;border-top: 1px solid #ededed;overflow: hidden;}
+.page8 .main .right .details{float: left;width: 219px;height: 473px;border-right: 1px solid #ededed;overflow: hidden}
+.page8 .main .right .details li{height: 117px;overflow: hidden;border-bottom: 1px solid #ededed;}
+.page8 .main .right .details .last{height: 237px;border-right: none;}
+.page8 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page8 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page8 .icon .last{border-right:none;}
+.adposition3{width: 1200px;margin:20px auto 15px;height: 125px;padding: 0 5px 0;}  
+.adposition3 .ad{width: 400px;display: block;float: left;font-size: 0;}  
+.page9 .title h2 i{color: #fff;font-size: 13px;position: absolute;left: 3px;top: 0;display: block;}
+.page9 .title{border-bottom: 1px solid #C81623;height: 35px;}
+.page9 .title h2{float: left;height: 30px;line-height: 30px;font-size: 20px;color: #333;font-weight: normal;padding-left: 40px;background: url("../images/nva_bg.png") no-repeat 0 -35px;position: relative;}
+.page9 .title ul{float: right;border: 1px solid #ededed;border-bottom: none;}
+.page9 .title ul li{float: left;height: 31px;line-height: 31px;position: relative;border-top: 3px solid #fff;border-left: 1px solid #fff;border-right: 1px solid #fff;}
+.page9 .title ul .ac{border-color:#C81623 ;z-index: 3;margin-top: -1px; padding-top: 1px;}
+.page9 .title ul .ac i{display: none;}
+.page9 .title ul .ac a{height: 32px;background: #fff;}
+.page9 .title ul li a{padding: 0 15px;font-size: 12px;display: block;}
+.page9 .title ul li i{width: 1px;height: 14px;background: #ccc;position: absolute;top:10px;right:-2px;z-index: 2;}
+.page9 .title ul li:hover{border-color:#C81623;z-index: 3;margin-top: -1px; padding-top: 1px;} 
+.page9 .title ul li:hover i{display: none;}
+.page9 .title ul li:hover a{height: 32px;background: #fff;}
+.page9 .main .left{float:left;width:210px;height:474px;position: relative;overflow: hidden;}
+.page9 .main .left .pic{position: relative;}
+.page9 .main .left .text{position: absolute;left: 0;top: 237px;}
+.page9 .main .left .text .yi{background: rgba(255,255,255,0.5);height: 92px;overflow: hidden;padding-left: 10px;}
+.page9 .main .left .text .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page9 .main .left .text .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/sportsicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page9 .main .left .text .yi li .er{background-position: 0 -26px;}
+.page9 .main .left .text .yi li .san{background-position: 0 -52px;}
+.page9 .main .left .text .yi li .si{background-position: 0 -78px;}
+.page9 .main .left .text .er{background: rgba(255,255,255,0.7);height: 145px;overflow: hidden;}
+.page9 .main .left .text .er .one{padding: 22px 0 6px 25px;overflow: hidden;width: 180px;}
+.page9 .main .left .text .er .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;}
+.page9 .main .left .text .er .two{padding-left: 25px;height: 52px;overflow: hidden;}
+.page9 .main .left .text .er .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page9 .main .left .text .er .two .ac{color: #c81623;}
+.page9 .main .left .text .er a:hover{color:#C81623;}
+.page9 .main .right{float:left;width: 1000px;height: 473px;float: left;border-bottom: 1px solid #ededed;font-size: 0;}
+.page9 .main .right .banner{width: 339px;border-right: 1px solid #ededed;float: left;}
+.page9 .main .right li{height:236px;float:left;overflow: hidden;float: left;border-bottom: 1px solid #ededed;}
+.page9 .main .right .details{float: left;width: 219px;border-right: 1px solid #ededed}
+.page9 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page9 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page9 .icon .last{border-right:none;}
+.page10{padding-top: 22px;}
+.page10 .title h2 i{color: #fff;font-size: 13px;position: absolute;left: 3px;top: 0;display: block;}
+.page10 .title{border-bottom: 1px solid #C81623;height: 35px;}
+.page10 .title h2{float: left;height: 30px;line-height: 30px;font-size: 20px;color: #333;font-weight: normal;padding-left: 40px;background: url("../images/nva_bg.png") no-repeat 0 -35px;position: relative;}
+.page10 .title ul{float: right;border: 1px solid #ededed;border-bottom: none;}
+.page10 .title ul li{float: left;height: 31px;line-height: 31px;position: relative;border-top: 3px solid #fff;border-left: 1px solid #fff;border-right: 1px solid #fff;}
+.page10 .title ul .ac{border-color:#C81623 ;z-index: 3;margin-top: -1px; padding-top: 1px;}
+.page10 .title ul .ac i{display: none;}
+.page10 .title ul .ac a{height: 32px;background: #fff;}
+.page10 .title ul li a{padding: 0 15px;font-size: 12px;display: block;}
+.page10 .title ul li i{width: 1px;height: 14px;background: #ccc;position: absolute;top:10px;right:-2px;z-index: 2;}
+.page10 .title ul li:hover{border-color:#C81623;z-index: 3;margin-top: -1px; padding-top: 1px;} 
+.page10 .title ul li:hover i{display: none;}
+.page10 .title ul li:hover a{height: 32px;background: #fff;}
+.page10 .main .left{float:left;width:210px;height:474px;position: relative;overflow: hidden;}
+.page10 .main .left .pic{position: relative;}
+.page10 .main .left .text{position: absolute;left: 0;top: 237px;}
+.page10 .main .left .text .yi{background: rgba(255,255,255,0.5);height: 92px;overflow: hidden;padding-left: 10px;}
+.page10 .main .left .text .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page10 .main .left .text .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/livingsicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page10 .main .left .text .yi li .er{background-position: 0 -26px;}
+.page10 .main .left .text .yi li .san{background-position: 0 -52px;}
+.page10 .main .left .text .yi li .si{background-position: 0 -78px;}
+.page10 .main .left .text .er{background: rgba(255,255,255,0.7);height: 145px;overflow: hidden;}
+.page10 .main .left .text .er .one{padding: 22px 0 6px 25px;overflow: hidden;width: 180px;}
+.page10 .main .left .text .er .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;}
+.page10 .main .left .text .er .two{padding-left: 25px;height: 52px;overflow: hidden;}
+.page10 .main .left .text .er .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page10 .main .left .text .er .two .ac{color: #c81623;}
+.page10 .main .left .text .er a:hover{color:#C81623;}
+.page10 .main .right{float:left;width: 1000px;height: 473px;float: left;border-bottom: 1px solid #ededed;font-size: 0;}
+.page10 .main .right .banner{width: 339px;border-right: 1px solid #ededed;float: left;}
+.page10 .main .right li{height:236px;float:left;overflow: hidden;float: left;border-bottom: 1px solid #ededed;}
+.page10 .main .right .details{float: left;width: 219px;border-right: 1px solid #ededed}
+.page10 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page10 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page10 .icon .last{border-right:none;}
+.page11{padding-top: 22px;}
+.page11 .title h2 i{color: #fff;font-size: 13px;position: absolute;left: 3px;top: 0;display: block;}
+.page11 .title{border-bottom: 1px solid #C81623;height: 35px;}
+.page11 .title h2{float: left;height: 30px;line-height: 30px;font-size: 20px;color: #333;font-weight: normal;padding-left: 40px;background: url("../images/nva_bg.png") no-repeat 0 -35px;position: relative;}
+.page11 .title ul{float: right;border: 1px solid #ededed;border-bottom: none;}
+.page11 .title ul li{float: left;height: 31px;line-height: 31px;position: relative;border-top: 3px solid #fff;border-left: 1px solid #fff;border-right: 1px solid #fff;}
+.page11 .title ul .ac{border-color:#C81623 ;z-index: 3;margin-top: -1px; padding-top: 1px;}
+.page11 .title ul .ac i{display: none;}
+.page11 .title ul .ac a{height: 32px;background: #fff;}
+.page11 .title ul li a{padding: 0 15px;font-size: 12px;display: block;}
+.page11 .title ul li i{width: 1px;height: 14px;background: #ccc;position: absolute;top:10px;right:-2px;z-index: 2;}
+.page11 .title ul li:hover{border-color:#C81623;z-index: 3;margin-top: -1px; padding-top: 1px;} 
+.page11 .title ul li:hover i{display: none;}
+.page11 .title ul li:hover a{height: 32px;background: #fff;}
+.page11 .main .left{float:left;width:210px;height:474px;position: relative;overflow: hidden;}
+.page11 .main .left .pic{position: relative;}
+.page11 .main .left .text{position: absolute;left: 0;top: 237px;}
+.page11 .main .left .text .yi{background: rgba(255,255,255,0.5);height: 92px;overflow: hidden;padding-left: 10px;}
+.page11 .main .left .text .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page11 .main .left .text .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/babysicon.png)  no-repeat;display: block;float: left;padding-left: 31px;}
+.page11 .main .left .text .yi li .er{background-position: 0 -26px;}
+.page11 .main .left .text .yi li .san{background-position: 0 -52px;}
+.page11 .main .left .text .yi li .si{background-position: 0 -78px;}
+.page11 .main .left .text .er{background: rgba(255,255,255,0.7);height: 145px;overflow: hidden;}
+.page11 .main .left .text .er .one{padding: 22px 0 6px 25px;overflow: hidden;width: 180px;}
+.page11 .main .left .text .er .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;}
+.page11 .main .left .text .er .two{padding-left: 25px;height: 52px;overflow: hidden;}
+.page11 .main .left .text .er .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page11 .main .left .text .er .two .ac{color: #c81623;}
+.page11 .main .left .text .er a:hover{color:#C81623;}
+.page11 .main .right{float:left;width: 1000px;height: 473px;float: left;border-bottom: 1px solid #ededed;font-size: 0;}
+.page11 .main .right .banner{width: 339px;border-right: 1px solid #ededed;float: left;}
+.page11 .main .right li{height:236px;float:left;overflow: hidden;float: left;border-bottom: 1px solid #ededed;}
+.page11 .main .right .details{float: left;width: 219px;border-right: 1px solid #ededed}
+.page11 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page11 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page11 .icon .last{border-right:none;}    
+.page12{padding-top: 22px;}
+.page12 .title h2 i{color: #fff;font-size: 13px;position: absolute;left: 3px;top: 0;display: block;}
+.page12 .title{border-bottom: 1px solid #C81623;height: 35px;}
+.page12 .title h2{float: left;height: 30px;line-height: 30px;font-size: 20px;color: #333;font-weight: normal;padding-left: 40px;background: url("../images/nva_bg.png") no-repeat 0 -35px;position: relative;}
+.page12 .title ul{float: right;border: 1px solid #ededed;border-bottom: none;}
+.page12 .title ul li{float: left;height: 31px;line-height: 31px;position: relative;border-top: 3px solid #fff;border-left: 1px solid #fff;border-right: 1px solid #fff;}
+.page12 .title ul .ac{border-color:#C81623 ;z-index: 3;margin-top: -1px; padding-top: 1px;}
+.page12 .title ul .ac i{display: none;}
+.page12 .title ul .ac a{height: 32px;background: #fff;}
+.page12 .title ul li a{padding: 0 15px;font-size: 12px;display: block;}
+.page12 .title ul li i{width: 1px;height: 14px;background: #ccc;position: absolute;top:10px;right:-2px;z-index: 2;}
+.page12 .title ul li:hover{border-color:#C81623;z-index: 3;margin-top: -1px; padding-top: 1px;} 
+.page12 .title ul li:hover i{display: none;}
+.page12 .title ul li:hover a{height: 32px;background: #fff;}
+.page12 .main .left{float:left;width:210px;height:474px;position: relative;overflow: hidden;}
+.page12 .main .left .pic{position: relative;}
+.page12 .main .left .text{position: absolute;left: 0;top: 237px;}
+.page12 .main .left .text .yi{background: rgba(255,255,255,0.5);height: 92px;overflow: hidden;padding-left: 10px;}
+.page12 .main .left .text .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page12 .main .left .text .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/foodsicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page12 .main .left .text .yi li .er{background-position: 0 -26px;}
+.page12 .main .left .text .yi li .san{background-position: 0 -52px;}
+.page12 .main .left .text .yi li .si{background-position: 0 -78px;}
+.page12 .main .left .text .er{background: rgba(255,255,255,0.7);height: 145px;overflow: hidden;}
+.page12 .main .left .text .er .one{padding: 22px 0 6px 25px;overflow: hidden;width: 180px;}
+.page12 .main .left .text .er .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;}
+.page12 .main .left .text .er .two{padding-left: 25px;height: 52px;overflow: hidden;}
+.page12 .main .left .text .er .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page12 .main .left .text .er .two .ac{color: #c81623;}
+.page12 .main .left .text .er a:hover{color:#C81623;}
+.page12 .main .right{float:left;width: 1000px;height: 473px;float: left;border-bottom: 1px solid #ededed;font-size: 0;}
+.page12 .main .right .banner{width: 339px;border-right: 1px solid #ededed;float: left;}
+.page12 .main .right li{height:236px;float:left;overflow: hidden;float: left;border-bottom: 1px solid #ededed;}
+.page12 .main .right .details{float: left;width: 219px;border-right: 1px solid #ededed}
+.page12 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page12 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page12 .icon .last{border-right:none;}    
+.adposition4{width: 1200px;margin:20px auto 15px;height: 125px;padding: 0 5px 0;}  
+.adposition4 .ad{width: 400px;display: block;float: left;font-size: 0;} 
+.page13 .title h2 i{color: #fff;font-size: 13px;position: absolute;left: 3px;top: 0;display: block;}
+.page13 .title{border-bottom: 1px solid #C81623;height: 35px;}
+.page13 .title h2{float: left;height: 30px;line-height: 30px;font-size: 20px;color: #333;font-weight: normal;padding-left: 40px;background: url("../images/nva_bg.png") no-repeat 0 -35px;position: relative;}
+.page13 .title ul{float: right;border: 1px solid #ededed;border-bottom: none;}
+.page13 .title ul li{float: left;height: 31px;line-height: 31px;position: relative;border-top: 3px solid #fff;border-left: 1px solid #fff;border-right: 1px solid #fff;}
+.page13 .title ul .ac{border-color:#C81623 ;z-index: 3;margin-top: -1px; padding-top: 1px;}
+.page13 .title ul .ac i{display: none;}
+.page13 .title ul .ac a{height: 32px;background: #fff;}
+.page13 .title ul li a{padding: 0 15px;font-size: 12px;display: block;}
+.page13 .title ul li i{width: 1px;height: 14px;background: #ccc;position: absolute;top:10px;right:-2px;z-index: 2;}
+.page13 .title ul li:hover{border-color:#C81623;z-index: 3;margin-top: -1px; padding-top: 1px;} 
+.page13 .title ul li:hover i{display: none;}
+.page13 .title ul li:hover a{height: 32px;background: #fff;}
+.page13 .main .left{float:left;width:210px;height:474px;position: relative;overflow: hidden;}
+.page13 .main .left .pic{position: relative;}
+.page13 .main .left .text{position: absolute;left: 0;top: 237px;}
+.page13 .main .left .text .yi{background: rgba(255,255,255,0.5);height: 92px;overflow: hidden;padding-left: 10px;}
+.page13 .main .left .text .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page13 .main .left .text .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/booksicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page13 .main .left .text .yi li .er{background-position: 0 -26px;}
+.page13 .main .left .text .yi li .san{background-position: 0 -52px;}
+.page13 .main .left .text .yi li .si{background-position: 0 -78px;}
+.page13 .main .left .text .er{background: rgba(255,255,255,0.7);height: 145px;overflow: hidden;}
+.page13 .main .left .text .er .one{padding: 22px 0 6px 25px;overflow: hidden;width: 180px;}
+.page13 .main .left .text .er .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;}
+.page13 .main .left .text .er .two{padding-left: 25px;height: 52px;overflow: hidden;}
+.page13 .main .left .text .er .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page13 .main .left .text .er .two .ac{color: #c81623;}
+.page13 .main .left .text .er a:hover{color:#C81623;}
+.page13 .main .right{float:left;width: 1000px;height: 473px;float: left;border-bottom: 1px solid #ededed;font-size: 0;}
+.page13 .main .right .banner{width: 439px;border-right: 1px solid #ededed;float: left;}
+.page13 .main .right li{height: 236px;float: left;border-bottom: 1px solid #ededed;overflow: hidden;}
+.page13 .main .right .first{border-bottom: 1px dotted #ededed;}
+.page13 .main .right .details{float: left;width: 219px;border-right: 1px solid #ededed}
+.page13 .main .right .author{width: 314px;float: left;padding: 0 15px 0 10px;overflow: hidden}
+.page13 .main .right .author dt{height: 40px;line-height: 40px;font-size: 20px;border-bottom: 1px solid #e4e4e4;}
+.page13 .main .right .author dd{height: 79px;padding-top: 21px;}
+.page13 .main .right .author dd>a{width: 72px;height: 79px;box-sizing: border-box;display: block;text-align: center;float: left} 
+.page13 .main .right .author dd .pic{width: 48px;height: 48px;font-size: 0;margin: 2px auto;}
+.page13 .main .right .author dd .pic img{width:100%}
+.page13 .main .right .author dd p{font: 12px/29px "宋体";color: #999;height: 29px;}
+.page13 .main .right .author dd p:hover{color:#C81623;}
+.page13 .main .right .author dd .text{float: left;width: 241px;}
+.page13 .main .right .author dd .text .book{width: 79px;height: 79px;float: left;margin-right: 10px;}
+.page13 .main .right .author dd .text .book img{width:100%}
+.page13 .main .right .author dd .text p{font-size: 14px;line-height: 18px;color: #666;width: 143px;white-space: nowrap;overflow: hidden;font-family: "微软雅黑";}
+.page13 .main .right .author dd .text .wenzi{width: 150px;height: 57px;background: #f8f8f8;position: relative;float: right;}
+.page13 .main .right .author dd .text .wenzi:before{content: '';width: 10px;height: 10px;background: #f8f8f8;transform: rotate(45deg);position: absolute;left: -5px;bottom: 22px;}
+.page13 .main .right .author dd .text .wenzi span{font: 12px/18px "宋体";color: #999;width: 125px;height: 57px;padding-top: 4px;overflow: hidden;display: block;padding: 10px 20px 0 5px;}
+.page13 .main .right .author dd .text .wenzi span .f{font-size: 35px;font-family: Arial;line-height: 30px;float: left;width: 15px;}
+.page13 .main .right .author dd .text .wenzi span .l{font-size: 35px;font-family: Arial;line-height: 38px;width: 15px;vertical-align: -22px;}
+.page13 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page13 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page13 .icon .last{border-right:none;}
+.page14{padding-top: 22px;}
+.page14 .title h2 i{color: #fff;font-size: 13px;position: absolute;left: 3px;top: 0;display: block;}
+.page14 .title{border-bottom: 1px solid #C81623;height: 35px;}
+.page14 .title h2{float: left;height: 30px;line-height: 30px;font-size: 20px;color: #333;font-weight: normal;padding-left: 40px;background: url("../images/nva_bg.png") no-repeat 0 -35px;position: relative;}
+.page14 .title ul{float: right;border: 1px solid #ededed;border-bottom: none;}
+.page14 .title ul li{float: left;height: 31px;line-height: 31px;position: relative;border-top: 3px solid #fff;border-left: 1px solid #fff;border-right: 1px solid #fff;}
+.page14 .title ul .ac{border-color:#C81623 ;z-index: 3;margin-top: -1px; padding-top: 1px;}
+.page14 .title ul .ac i{display: none;}
+.page14 .title ul .ac a{height: 32px;background: #fff;}
+.page14 .title ul li a{padding: 0 15px;font-size: 12px;display: block;}
+.page14 .title ul li i{width: 1px;height: 14px;background: #ccc;position: absolute;top:10px;right:-2px;z-index: 2;}
+.page14 .title ul li:hover{border-color:#C81623;z-index: 3;margin-top: -1px; padding-top: 1px;} 
+.page14 .title ul li:hover i{display: none;}
+.page14 .title ul li:hover a{height: 32px;background: #fff;}
+.page14 .main .left{float:left;width:330px;position: relative;height: 474px;overflow: hidden;}
+.page14 .main .left .pic{position: relative;}
+.page14 .main .left .text{position: absolute;left: 0;top: 237px;}
+.page14 .main .left .text .yi{background: rgba(255,255,255,0.5);height: 46px;overflow: hidden;padding-left: 25px;}
+.page14 .main .left .text .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page14 .main .left .text .yi .da{width:108px;}
+.page14 .main .left .text .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/carsicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page14 .main .left .text .yi li .er{background-position: 0 -26px;}
+.page14 .main .left .text .yi li .san{background-position: 0 -52px;}
+.page14 .main .left .text .er{background: rgba(255,255,255,0.7);height: 191px;overflow: hidden;}
+.page14 .main .left .text .er .one{padding: 22px 0 6px 0;overflow: hidden;width: 330px;height:48px;}
+.page14 .main .left .text .er .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;width: 135px;overflow: hidden;padding-left: 25px;}
+.page14 .main .left .text .er .two li{padding-left: 25px;float: left;width: 135px;height: 98px;overflow: hidden;}
+.page14 .main .left .text .er .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page14 .main .left .text .er .two .ac{color: #c81623;}
+.page14 .main .left .text .er a:hover{color:#C81623;}
+.page14 .main .right{float:left;width: 880px;height: 473px;border-bottom: 1px solid #ededed;font-size: 0;overflow: hidden;}
+.page14 .main .right .banner{float: left;width: 439px;height: 473px;border-right: 1px solid #ededed;overflow: hidden;}
+.page14 .main .right .banner li{height: 236px;float: left;overflow: hidden;}
+.page14 .main .right .banner .last{height: 237px;border-top: 1px solid #ededed;overflow: hidden;}
+.page14 .main .right .details{float: left;width: 219px;height: 473px;border-right: 1px solid #ededed;overflow: hidden}
+.page14 .main .right .details li{height: 117px;overflow: hidden;border-bottom: 1px solid #ededed;}
+.page14 .main .right .details .last{height: 237px;border-right: none;}
+.page14 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page14 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page14 .icon .last{border-right:none;}
+.page15{padding-top: 22px;}
+.page15 .title h2 i{color: #fff;font-size: 13px;position: absolute;left: 3px;top: 0;display: block;}
+.page15 .title{border-bottom: 1px solid #C81623;height: 35px;}
+.page15 .title h2{float: left;height: 30px;line-height: 30px;font-size: 20px;color: #333;font-weight: normal;padding-left: 40px;background: url("../images/nva_bg.png") no-repeat 0 -35px;position: relative;}
+.page15 .main .left{float:left;width:210px;height:474px;position: relative;overflow: hidden;}
+.page15 .main .left .pic{position: relative;}
+.page15 .main .left .text{position: absolute;left: 0;top: 237px;}
+.page15 .main .left .text .yi{background: rgba(255,255,255,0.5);height: 92px;overflow: hidden;padding-left: 25px;}
+.page15 .main .left .text .yi li{width: 108px;height: 26px;float: left;margin: 10px 0;}
+.page15 .main .left .text .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/lifeicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page15 .main .left .text .yi li .er{background-position: 0 -26px;}
+.page15 .main .left .text .yi li .san{background-position: 0 -52px;}
+.page15 .main .left .text .yi li .si{background-position: 0 -78px;}
+.page15 .main .left .text .er{background: rgba(255,255,255,0.7);height: 145px;overflow: hidden;}
+.page15 .main .left .text .er .one{padding: 22px 0 6px 25px;overflow: hidden;width: 180px;}
+.page15 .main .left .text .er .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;}
+.page15 .main .left .text .er .two{padding-left: 25px;height: 52px;overflow: hidden;}
+.page15 .main .left .text .er .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page15 .main .left .text .er .two .ac{color: #c81623;}
+.page15 .main .left .text .er a:hover{color:#C81623;}
+.page15 .main .con{float: left;width: 395px;height: 473px;border-bottom: 1px solid #ededed;font-size: 0px;}
+.page15 .main .con .banner{height: 237px;overflow: hidden;}
+.page15 .main .con .details{height:236px;}
+.page15 .main .con .details li{width: 196px;height: 117px;border-right: 1px solid #ededed;border-top: 1px solid #ededed;float: left;overflow: hidden;}
+.page15 .main .con .details .er{width:197px;}
+.page15 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page15 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page15 .icon .last{border-right:none;}
+.page16{padding-top: 14px;}
+.page16 .left{float:left;}
+.page16 .left h2{line-height: 41px;height: 41px;font-size: 20px;font-weight: normal;}
+.page16 .left .con{width: 899px;height: 281px;border: 1px solid #e5e5e5;border-right: none;}
+.page16 .left .con .left{width: 181px;padding: 0 29px 30px;float: left;}
+.page16 .left .con .left .pic{width: 160px;height: 160px;margin: 18px auto 0;transition: all 0.3s;}
+.page16 .left .con .left p{font-size: 12px;font-family: "宋体";color: #696969;line-height: 23px;height: 23px;margin-top: 27px;white-space: nowrap;overflow: hidden}
+.page16 .left .con .left p:hover{color:#C81623}
+.page16 .left .con .left span{font-size: 14px;color: #e32228;line-height: 24px;height: 24px;font-weight: bolder;}
+.page16 .left .con ul{width:660px;float:left;}
+.page16 .left .con ul li{width: 206px;float: left;height: 140px;border-left: 1px solid #ededed;border-bottom: 1px solid #ededed;padding-right: 13px;}
+.page16 .left .con ul li .pic{display: block;width: 100px;height: 100px;float: left;margin: 18px 5px 0 10px;overflow: hidden;}
+.page16 .left .con ul li p{line-height: 18px;height: 36px;overflow: hidden;font-size: 12px;font-family: "宋体";color: #696969;margin-top: 18px;}
+.page16 .left .con ul li span{line-height: 28px;height: 28px;font-size: 14px;color: #e32228;font-weight: bolder;}
+.page16 .right{float:left;}
+.page16 .right h2{line-height: 41px;height: 41px;font-size: 20px;font-weight: normal;}
+.page16 .right .roll{width: 264px;height: 206px;border: 1px solid #ededed;padding: 39px 24px 36px 20px;overflow: hidden;position: relative;}
+.page16 .right .roll .con{width: 264px;height: 206px;animation: roll 5s linear infinite;position: absolute}
+.page16 .right .roll .con:hover{animation-play-state: paused;}
+.page16 .right .roll ul li{margin-bottom: 35px;}
+.page16 .right .roll ul li .pic{float: left;width: 80px;height: 80px;padding-top: 6px;overflow: hidden;}
+.page16 .right .roll ul li .pic img{width:100%}
+.page16 .right .roll ul li .text{float: right;width: 165px;height: 86px;}
+.page16 .right .roll ul li .text .book img{width: 28px;height: 27px;float: left;margin-right: 8px;}
+.page16 .right .roll ul li .text .book p{font-size: 12px;line-height: 27px;color: #666;white-space: nowrap;overflow: hidden;font-family: "微软雅黑";}
+.page16 .right .roll ul li .text .wenzi{width: 165px;height: 54px;background: #f8f8f8;position: relative;float: right;margin-top: 5px;}
+.page16 .right .roll ul li .text .wenzi:before{content: '';width: 10px;height: 10px;background: #f8f8f8;transform: rotate(45deg);position: absolute;left: -5px;bottom: 22px;}
+.page16 .right .roll ul li .text .wenzi a{font: 12px/18px "宋体";color: #999;width: 150px;height: 40px;overflow: hidden;display: block;padding: 10px 20px 0 5px;}
+.page16 .right .roll ul li .text .wenzi a:hover{color:#C81623}
+.page16 .right .roll ul li .text .wenzi .yi{font-size: 35px;font-family: Arial;line-height: 30px;float: left;width: 15px;color: #666;}
+.page16 .right .roll ul li .text .wenzi .er{font-size: 35px;font-family: Arial;line-height: 38px;width: 15px;vertical-align: -22px;color: #666;}
+
+.footer{height:493px;margin-top: 20px;}
+.footer .top{height:94px;background:#f5f5f5;}
+.footer .top .pic_list{padding: 15px 0 11px;}
+.footer .top .pic_list .pic1{width:220px;height:64px;background:url(../images/nva_bg.png) no-repeat 0 -124px;float:left;margin-right:80px;}
+.footer .top .pic_list .pic2{width:220px;height:64px;background:url(../images/nva_bg.png) no-repeat 0 -189px;float:left;margin-right:80px;}
+.footer .top .pic_list .pic3{width:220px;height:64px;background:url(../images/nva_bg.png) no-repeat 0 -253px;float:left;margin-right:80px;}
+.footer .top .pic_list .pic4{width:220px;height:64px;background:url(../images/nva_bg.png) no-repeat 0 -317px;float:left;}
+.footer .mid{height:202px;}
+.footer .mid .inner{height:202px;border-bottom:1px solid #e5e5e5;}
+.footer .mid .inner dl{padding-top:15px;width:197px;float:left;}
+.footer .mid .inner dt{height:35px;line-height:35px;font-size:16px;color:#666;}
+.footer .mid .inner dd{line-height:20px;font-size: 12px;font-family:"宋体";}
+.footer .mid .inner .ac{width:163px;}
+.footer .mid .inner .last{background: url(../images/20130330B_1.png) no-repeat 0 -131px;width:251px;height:187px;}
+.footer .mid .inner .last .title{padding-left:21px;}
+.footer .mid .inner .last p{font-size: 12px;font-family:"宋体";color:#666;line-height:18px;padding:9px 0 0 21px;}
+.footer .mid .inner .last a{line-height:18px;padding-left:153px;height:18px;font-size: 12px;font-family:"宋体"}
+.footer .bot{text-align: center;}
+.footer .bot .mod_links{padding:23px 0 12px 0;font-size: 12px;}
+.footer .bot .mod_links .yi{padding:0 11px;color:#9b669b}
+.footer .bot .mod_info{margin-bottom: 8px;}
+.footer .bot .mod_info .tu{background:url(../images/footer_b_03.jpg) no-repeat;padding-left: 23px;}
+.footer .bot .mod_info p{font-size: 12px;line-height: 20px;color:#666;}
+.footer .bot .mod_info p .er{padding:0 8px;color:#9b669b}
+.footer .bot .mod_auth a{margin-right: 11px;}
